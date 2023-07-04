@@ -1,0 +1,56 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.cookie-container {
+	background: linear-gradient(260deg, #9b6c50 0%, #4f2626 100%);
+	font-family: 'Poppins', sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	display: flex;
+	padding: 40px;
+	border-radius: 30px;
+	width: 500px;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+}
+
+.cookie {
+	margin-right: 40px;
+	overflow: visible;
+}
+
+
+.text {
+	width: 70%;
+}
+
+.cookie-title,
+.cookie-subtitle {
+	margin-bottom: 15px;
+}
+
+button {
+	padding: 10px 20px;
+	margin-top: 5px;
+	border: 1px solid #fff;
+	background-color: #ffffff;
+	color: #4f2626;
+	font-weight: 400;
+	font-size: 16px;
+	border-radius: 6px;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+button:hover {
+	background: transparent;
+	color: #ffffff;
+	border: 1px solid #fff;
+}
